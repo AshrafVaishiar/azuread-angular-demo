@@ -1,0 +1,42 @@
+<div style="margin:auto;width:80%;height:90%">
+    <div style="margin:0 auto;width:90%;text-align:Center">
+        <button mat-raised-button color="primary" (click)="getAllCourses()">Get All Courses</button> &nbsp;&nbsp;
+    </div>
+    <br/>
+    <mat-card>
+        <mat-card-content>
+            <table class="table table-hover table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Course Name</th>
+                        <th scope="col">Course Duration</th>
+                        <th scope="col">Course Description</th>
+                        <th scope="col">Course Technology</th>
+                        <!-- <th scope="col">Loan Term</th>
+                        <th scope="col">Loan Amount</th>
+                        <th colspan="2" class="table-active" *ngIf="IsAdmin">Actions</th> -->
+                    </tr>
+                </thead>
+                <tbody class="table-hover">
+                    <tr *ngFor="let course of courseList">
+                        <td>{{course.courseName}}</td>
+                        <td>{{course.courseDuration}}</td>
+                        <td>{{course.courseDescription}}</td>
+                        <td>{{course.courseTechnology}}</td>
+                        <!-- <td>{{loan.loanType}}</td>
+                        <td>{{loan.loanTerm}}</td>
+                        <td>{{loan.loanAmount}}</td>
+                        <td>
+                            <button type="button" class="btn btn-outline-primary me-2" data-bs-toggle="modal"
+                                data-bs-target="#editLoan" (click)="onEditLoan(loan)" *ngIf="IsAdmin">Edit Loan</button>
+                            <button type="button" class="btn btn-outline-danger" (click)="onDeleteLoan(loan)"
+                                *ngIf="IsAdmin">Delete Loan</button>
+                        </td> -->
+        
+                    </tr>
+        
+                </tbody>
+            </table>
+        </mat-card-content>
+    </mat-card>
+</div>
