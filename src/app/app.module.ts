@@ -39,7 +39,7 @@ const isIE=window.navigator.userAgent.indexOf('MSIE')>-1
         {
           auth:{
             clientId:'26e67b73-d7b0-4a35-a837-459ee8f104df',
-            redirectUri:'http://localhost:4200',
+            redirectUri:'https://lmsui.azurewebsites.net',
             authority:'https://login.microsoftonline.com/8aac3eeb-5127-45ea-b1ef-454856977e68'
           },
           cache:

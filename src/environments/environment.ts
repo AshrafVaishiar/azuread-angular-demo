@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  postLogoutUrl:"http://localhost:4200"
+  postLogoutUrl:"https://lmsui.azurewebsites.net"
 };
 
 /*
