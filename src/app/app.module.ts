@@ -60,7 +60,7 @@ const isIE=window.navigator.userAgent.indexOf('MSIE')>-1
         protectedResourceMap:new Map(
           [
             ['https://graph.microsoft.com/v1.0/me',['user.Read']],
-            ['https://learningmanagementsystemapi.azurewebsites.net',['api://046ecf5d-c471-4df5-ae94-be2dce8fa0e5/lmsapi.scope']]
+            ['https://lmsapi20221027100327.azurewebsites.net',['api://046ecf5d-c471-4df5-ae94-be2dce8fa0e5/lmsapi.scope']]
           ]
         )
       }

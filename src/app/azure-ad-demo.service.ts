@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable, Subject } from 'rxjs';
 import { Course } from './course.model';
 const LMS_API_BASE_URI =
-  'https://learningmanagementsystemapi.azurewebsites.net';
+  'https://lmsapi20221027100327.azurewebsites.net';
 @Injectable({
   providedIn: 'root',
 })
